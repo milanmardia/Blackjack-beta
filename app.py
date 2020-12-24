@@ -11,6 +11,8 @@ for count in range(4):
         listofnumbers.append(item)
 
 suits = ["Clubs", "Spades", "Hearts", "Diamonds"]
+
+#creates a dictionary of deck of cards and form
 deck = {}
 for suit in suits:
     for number in numbers:
@@ -38,6 +40,7 @@ player_hand = ""
 dealer_hand = ""
 game_over = False
 
+#creates a list of only the keys of the deck
 for keys in deck:
     soledeck.append(keys)
 
